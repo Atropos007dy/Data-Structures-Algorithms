@@ -1,0 +1,7 @@
+1. This problem is similar to problem 2, we need to use recursion to detect user in subgroups.
+
+2. The basic idea is:
+(1) check if the user is under current group, if yes, return True
+(2) if the user is not under current group, check if the user is under the subgroup
+(3) time complexity: O(n), n depends on the number of subgroups and users under current group.
+(4) space complexity: O(1)
