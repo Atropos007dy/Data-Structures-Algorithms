@@ -1,0 +1,3 @@
+The problem requires time complexity to be O(log(n)), so use binary search.
+time complexity: O(log(n)), n:number
+space complexity: O(1)

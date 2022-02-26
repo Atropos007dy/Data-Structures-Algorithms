@@ -1,0 +1,32 @@
+Time complexity:
+-RouteTrie:
+1.Trieinsert:O(N), N parts
+2.find:O(N): N parts
+3.__init__:O(1)
+
+-RouteTrieNode:
+1.insert: O(N)， N parts
+2.__init__:O(1)
+
+-Router： 
+1.add_handler:O(N), N parts
+2.lookup: O(N), N parts
+3.split_path: O(N), N length of string
+4.__init__:O(1)
+
+
+space complexity:
+-RouteTrie:
+1.Trieinsert:O(Nl), N parts*(length of handler+length of default handler)
+2.find:O(1)
+3.__init__:O(1)
+
+-RouteTrieNode:
+1.insert: O(l)， l,string length of part(key)+length of part handler
+2.__init__:O(1)
+
+-Router： 
+1.add_handler:O(N*S), N parts, S: lengths of part(key) and part handler
+2.lookup: O(l), l, length of handler
+3.split_path: O(N), N length of input string
+4.__init__:O(1)

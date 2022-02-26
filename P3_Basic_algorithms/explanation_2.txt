@@ -1,0 +1,3 @@
+Time complexity must be O(log n), so use binary search.
+Time complexity: O(logn), n, length of array.
+Space complexity: O(1)

@@ -1,0 +1,26 @@
+Time complexity:
+-TrieNone:
+1.__init__:O(1)
+2.insert:O(1)
+3.suffixes: O(N), N,length of longest words having the required prefix.
+4.helper: O(N), N,length of longest words having the required prefix.
+
+
+-Trie:
+1.__init__: O(1)
+2.insert:O(N), N length of the word
+3.find:O(N),N length of the word
+
+
+
+Space complexity:
+-TrieNone:
+1.__init__:O(1)
+2.insert():O(1)
+3.suffixes: O(NM), N, number of char in prefix, M largest length of suffix.
+4.helper:O(NM), N, number of char in prefix, M largest length of suffix.
+
+-Trie:
+1.__init__: O(1)
+2.insert():O(N), length of the word
+3.find():O(N),N length of the word

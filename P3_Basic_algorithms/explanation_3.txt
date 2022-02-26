@@ -1,0 +1,3 @@
+The most time-consuming part is the sorting part.
+Time complexity: O(nlogn) since using quick sort. (Checking invalid inputs and forming two numbers takes O(n))
+Space complexity: O(1)

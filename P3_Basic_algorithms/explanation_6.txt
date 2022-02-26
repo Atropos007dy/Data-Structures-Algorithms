@@ -1,0 +1,4 @@
+Use two variable to store the smallest number and largest number. 
+Iterate the number and compare every time.
+Time complexity: O(n)
+Space complexity: O(1)
