@@ -1,5 +1,0 @@
-1. Since all the operations must take O(1) time, I chose to use a dictionary to store the key-value pair, The key of cache is the key value, stored value is a node(key,value).
-2. Also we need to keep track of the least recently used entry, so use a double linked list might be a good idea:
-(1) We can always move the latest used entry to the head, then the tail is the least recently used entry.
-(2) It's fast to add and remove entry in a double linked list. (O(1) time)
-(3) For convenience, use a pseudo head and a pseudo tail.

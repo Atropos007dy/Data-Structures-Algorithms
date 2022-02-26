@@ -1,4 +1,0 @@
-The basic idea is to use a linked list to construct the blockchain.
-1.Each block is like a node in the linked list.
-2.Inorder to insert new block in O(1), we need to use "self.tail" to record the last block and append it after the tail.
-3. Space complexity is O(n), n is the number of blocks in the blockchain.

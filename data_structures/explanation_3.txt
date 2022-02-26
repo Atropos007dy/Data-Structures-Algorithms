@@ -1,8 +1,0 @@
-The basic idea is that:
-(1) when receiving a text, use a dictionary to get the frequency first. O(N): N is length of text.
-(2) Then use a heap to store the Node, in the worst cases the time complexity for inserting/deteling one node would be O(logN)
-(3) when building the Huffman tree, merging the nodes using heap cost ~O(NlogN) time.
-(4) time complexity of use recursing to get the encoding dictionary is O(N).
-(5) Time complexity of decoding is similar to encoding, O(N).
-(6) Total time complexity is ~O(NlogN).
-(7) Space complexity:

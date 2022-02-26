@@ -1,8 +1,0 @@
-1. Use recursion to deal with the problem since no one knows the depth of the subdirectories. 
-
-2. The basic idea is:
-(1) get all the files or directories under current path
-(2) if current file is a file and it has the suffix we want to find, add to the results list
-(3) if current file is a directory, find files under the new director, then extend the results.
-(4) time complexity: O(n), n depends on the number of subdirectories under the folder.
-(5) space complexity: O(n),  n is the number of files.
