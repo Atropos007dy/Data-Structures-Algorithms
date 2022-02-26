@@ -1,0 +1,17 @@
+Time Complexity Analysis:
+
+-Task 0: 
+ O(1),just using index to get the element, so constant time complexity
+-Task 1: 
+ O(M+N), where M is the number of call records, N is the number of text records.
+-Task 2: 
+ O(N), where N is the number of call records. Count the total time spend on phone is O(N),find the maximum value is O(N).
+-Task 3: 
+ Counting the number of calls by Bangalore is O(N).
+ Sorting aera codes is O(NlogN).
+ Calculating percentage is O(1).
+ So total is O(NlogN).
+-Task 4: 
+ Finding candidates is O(M+N), where M is the number of call records, N is the number of text records.
+ Sorting worst case is O(Mlog(M)), where M is the number of call records.
+ 
